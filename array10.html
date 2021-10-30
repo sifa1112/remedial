@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="divid"></div>
+<script>
+    //menggabungkan tiga array(.concat)
+var mobil = ["Avanza", "Agya", "Ayla"];
+var teks, i;
+teks ="<ul>";
+for(i=0; i < mobil.length; i++)
+{
+    teks += "<li>"+mobil[i]+"</li>";
+}
+teks +="</ul>";
+document.getElementById("divid").innerHTML = teks;
+</script>
+</body>
+</html>

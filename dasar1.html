@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Belajar Javascript</h2>
+<script>
+alert("Saya sedang belajar Javascript")
+</script>
+</body>
+</html>

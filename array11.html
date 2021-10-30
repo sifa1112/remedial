@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="divid"></div>
+<script>
+    //iterasi data dari array dengan for
+var mobil = ["Avanza", "Agya", "Ayla"];
+var teks, i;
+teks ="<ul>";
+mobil.forEach(fungsiMobil)
+teks += "</ul>";
+function fungsiMobil(value)
+{
+    teks += "<li>"+value+"</li>";
+}
+document.getElementById("divid").innerHTML = teks;
+</script>
+</body>
+</html>
